@@ -1,0 +1,82 @@
+.titulo{
+    background-color: rgb(67, 67, 235);
+    border-style: dotted;
+}
+.barra{
+    background-color: rgb(87, 87, 162);
+}
+.barraMenu{
+    display: flex;
+}
+.cartilla{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    .imagen{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .chiki1{
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        border-style: dotted;
+    }
+    .chiki2{
+        width: 200px;
+        height: 300px;
+        border-style: dotted;
+    }
+    .chiki3{
+        width: 200px;
+        height: 300px;
+        border-style: dotted;
+    }
+}
+.piedp{
+    display: flex;
+    margin-top: 100px;
+    background-color: rgb(143, 143, 228);
+    width: 100%;
+    .piedp1{
+        background-color: aquamarine;
+        justify-content: left;
+        width: 50%;
+        
+    }
+    .piedp2{
+        background-color: azure;
+        width: 50%;
+    }
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenidop{
+    background-color: cornflowerblue;
+    height: 650px;
+}
+.miku{
+    display: flex;
+    flex-direction: column;
+}
+.imagenP{
+        width: 200px;
+        height: 270px;
+    }
+.peli3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.peli2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
